@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamMW - Stream & Buy Beats</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-music"></i>
+                <span>SMw</span>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Category <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#stream" class="dropdown-link">Stream</a></li>
+                        <li><a href="#buy" class="dropdown-link">Buy</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#team" class="nav-link">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <div class="search-container">
+                <form class="search-form">
+                    <input type="text" class="search-input" placeholder="Search beats, artists..." autocomplete="off">
+                    <span class="material-symbols-outlined">search</span>
+                    <div class="search-results"></div>
+                </form>
+            </div>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to <span class="highlight">StreamMW</span></h1>
+            <p>Your ultimate destination for streaming and buying high-quality beats and music</p>
+            <div class="hero-buttons">
+                <a href="#stream" class="btn btn-primary">Start Streaming</a>
+                <a href="#buy" class="btn btn-secondary">Browse Beats</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="music-wave">
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+                <div class="wave-bar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stream Section -->
+    <section id="stream" class="stream-section">
+        <div class="container">
+            <h2>Discover & Enjoy Music</h2>
+            <p>Stream your favorite tracks or purchase albums from emerging and established artists</p>
+            
+            <div class="music-grid">
+                <div class="music-card">
+                    <div class="music-cover">
+                        <i class="fas fa-play play-btn"></i>
+                    </div>
+                    <h3>Hip Hop Beat #1</h3>
+                    <p>Producer: DJ MixMaster</p>
+                    <div class="music-controls">
+                        <button class="control-btn"><i class="fas fa-play"></i></button>
+                        <button class="control-btn"><i class="fas fa-heart"></i></button>
+                        <button class="control-btn"><i class="fas fa-share"></i></button>
+                    </div>
+                </div>
+                
+                <div class="music-card">
+                    <div class="music-cover">
+                        <i class="fas fa-play play-btn"></i>
+                    </div>
+                    <h3>Trap Beat #2</h3>
+                    <p>Producer: BeatMaker Pro</p>
+                    <div class="music-controls">
+                        <button class="control-btn"><i class="fas fa-play"></i></button>
+                        <button class="control-btn"><i class="fas fa-heart"></i></button>
+                        <button class="control-btn"><i class="fas fa-share"></i></button>
+                    </div>
+                </div>
+                
+                <div class="music-card">
+                    <div class="music-cover">
+                        <i class="fas fa-play play-btn"></i>
+                    </div>
+                    <h3>R&B Vibes</h3>
+                    <p>Producer: SoulBeats</p>
+                    <div class="music-controls">
+                        <button class="control-btn"><i class="fas fa-play"></i></button>
+                        <button class="control-btn"><i class="fas fa-heart"></i></button>
+                        <button class="control-btn"><i class="fas fa-share"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy Section -->
+    <section id="buy" class="buy-section">
+        <div class="container">
+            <h2>Buy Beats</h2>
+            <p>Purchase exclusive beats and licenses for your next project</p>
+            
+            <div class="beats-grid">
+                <div class="beat-card">
+                    <div class="beat-cover">
+                        <i class="fas fa-shopping-cart cart-icon"></i>
+                    </div>
+                    <h3>Premium Hip Hop Beat</h3>
+                    <p>Producer: Urban Sounds</p>
+                    <div class="price">$29.99</div>
+                    <div class="beat-actions">
+                        <button class="btn btn-small">Preview</button>
+                        <button class="btn btn-primary btn-small">Buy Now</button>
+                    </div>
+                </div>
+                
+                <div class="beat-card">
+                    <div class="beat-cover">
+                        <i class="fas fa-shopping-cart cart-icon"></i>
+                    </div>
+                    <h3>Melodic Trap Beat</h3>
+                    <p>Producer: MelodyMaker</p>
+                    <div class="price">$24.99</div>
+                    <div class="beat-actions">
+                        <button class="btn btn-small">Preview</button>
+                        <button class="btn btn-primary btn-small">Buy Now</button>
+                    </div>
+                </div>
+                
+                <div class="beat-card">
+                    <div class="beat-cover">
+                        <i class="fas fa-shopping-cart cart-icon"></i>
+                    </div>
+                    <h3>Chill Lo-Fi Beat</h3>
+                    <p>Producer: ChillVibes</p>
+                    <div class="price">$19.99</div>
+                    <div class="beat-actions">
+                        <button class="btn btn-small">Preview</button>
+                        <button class="btn btn-primary btn-small">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team-section">
+        <div class="container">
+            <h2>Our Team</h2>
+            <p>Meet the talented individuals behind StreamMW</p>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Alex Johnson</h3>
+                    <p>Founder & CEO</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Sarah Williams</h3>
+                    <p>Head of Music</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Mike Davis</h3>
+                    <p>Lead Developer</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About StreamMW</h2>
+                    <p>StreamMW is a revolutionary platform connecting musicians, producers, and music enthusiasts worldwide. We provide a seamless experience for streaming and purchasing high-quality beats and music.</p>
+                    
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-music"></i>
+                            <h4>High-Quality Audio</h4>
+                            <p>All tracks are available in premium quality formats</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <h4>Secure Transactions</h4>
+                            <p>Safe and secure payment processing for all purchases</p>
+                        </div>
+                        
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h4>Community Driven</h4>
+                            <p>Connect with producers and artists from around the world</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="stat-card">
+                        <h3>10K+</h3>
+                        <p>Active Users</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>5K+</h3>
+                        <p>Beats Available</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>500+</h3>
+                        <p>Producers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have questions? We'd love to hear from you</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@streammw.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Music Street, Sound City, SC 12345</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-music"></i>
+                        <span>StreamMW</span>
+                    </div>
+                    <p>Your ultimate destination for streaming and buying beats.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#stream">Stream</a></li>
+                        <li><a href="#buy">Buy</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 StreamMW. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
